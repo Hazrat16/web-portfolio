@@ -18,15 +18,16 @@ li a {
 .navbar{
     display: inline-block;
     width: 100%;
-    background-color: rgb(216, 216, 216);
+    background-color: rgb(255, 255, 255);
 }
 .nav-links{
     float: right;
 }
 body{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    background-color: rgb(255, 254, 254);
     margin: 0;
-    background-color: rgb(209, 207, 207);
 }
 h1{
     font-size: 40px;
@@ -34,13 +35,22 @@ h1{
 .orange-highlight{
     color: orange;
 }
+.bold{
+    font-weight: bold;
+}
 .half-width{
-    width: 40%;
+    width: 30%;
     float: left;
     margin-left: 5%;
     padding-left: 2%;
 }
-.half-width img{
+.half-width-image{
+    width: 50%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half-width-image img{
     width: 100%;
 }
 
@@ -57,14 +67,16 @@ section{
     font-weight: 700;
 }
 .working-projects{
-    background-color: rgb(231, 228, 228);
+    background-color: rgb(240, 238, 238);
 }
 #working-project-heading{
     text-align: center;
     padding-top: 30px;
+    padding-bottom: 40px;
+    font-weight: bold;
 }
 .projects{
-    box-shadow: 10px 10px 20px gray;
+    box-shadow: 10px 10px 20px rgb(202, 202, 202);
     border-radius: 20px;
     width: 25%;
     float: left;
@@ -72,12 +84,22 @@ section{
     padding-left: 1%;
     padding-right: 1%;
     padding-top: 1%;
+    background-color: rgb(243, 243, 243);
 }
 .projects img{
     width: 100%;
 }
+#colorful-leatest{
+    color: #F46060;
+}
+#our-team{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
 .team-member{
     box-shadow: 10px 10px 20px gray;
+    border-radius: 20px;
     width: 25%;
     float: left;
     margin-left: 5%;
